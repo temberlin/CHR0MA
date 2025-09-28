@@ -1,0 +1,4 @@
+^F:\ANIMATION\2025\PLUGINS\AFTEREFFECTSSDK\EXAMPLES\TEMPLATE\SKELETON\SKELETONPIPL.R
+cl /I "F:\Animation\2025\plugins\AfterEffectsSDK\Examples\Template\Skeleton\Win\..\..\..\Headers" /EP ".."\\"SkeletonPiPL.r" > "x64\Release\"\\"SkeletonPiPL.rr"
+"F:\Animation\2025\plugins\AfterEffectsSDK\Examples\Template\Skeleton\Win\..\..\..\Resources\PiPLTool" "x64\Release\SkeletonPiPL.rr" "x64\Release\SkeletonPiPL.rrc"
+cl /D "MSWindows" /EP x64\Release\SkeletonPiPL.rrc >               "F:\Animation\2025\plugins\AfterEffectsSDK\Examples\Template\Skeleton\Win\"\\"SkeletonPiPL".rc
