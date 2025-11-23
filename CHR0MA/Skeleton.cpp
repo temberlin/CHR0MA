@@ -44,8 +44,7 @@
 
 #include "Skeleton.h"
 
-#define _USE_MATH_DEFINES
-#include <math.h>
+#include <cmath>
 #include <cfloat>
 
 static PF_Err 
@@ -267,7 +266,7 @@ LC find_cusp(float a, float b)
 
 	// Convert to linear sRGB to find the first point where at least one of r,g or b >= 1:
 	RGB rgb_at_max = oklab_to_linear_srgb({ 1, S_cusp * a, S_cusp * b });
-	float L_cusp = cbrtf(1.f / max(max(rgb_at_max.r, rgb_at_max.g), rgb_at_max.b));
+	float L_cusp = cbrtf(1.f / std::fmax(std::fmax(rgb_at_max.r, rgb_at_max.g), rgb_at_max.b));
 	float C_cusp = L_cusp * S_cusp;
 
 	return { L_cusp , C_cusp };
@@ -357,7 +356,7 @@ float find_gamut_intersection(float a, float b, float L1, float C1, float L0)
 				t_g = u_g >= 0.f ? t_g : FLT_MAX;
 				t_b = u_b >= 0.f ? t_b : FLT_MAX;
 
-				t += min(t_r, min(t_g, t_b));
+				t += std::fmin(t_r, std::fmin(t_g, t_b));
 			}
 		}
 	}
@@ -375,7 +374,7 @@ static RGB gamut_clip_preserve_chroma(RGB rgb)
 
 	float L = lab.L;
 	float eps = 0.00001f;
-	float C = max(eps, sqrtf(lab.a * lab.a + lab.b * lab.b));
+	float C = std::fmax(eps, sqrtf(lab.a * lab.a + lab.b * lab.b));
 	float a_ = lab.a / C;
 	float b_ = lab.b / C;
 
@@ -403,7 +402,7 @@ RGB gamut_clip_adaptive_L0_L_cusp(RGB rgb, float alpha = 0.05f)
 	float L = lab.L;
 	//float eps = 0.00001f;
 	float eps = 0.0000f;
-	float C = max(eps, sqrtf(lab.a * lab.a + lab.b * lab.b));
+	float C = std::fmax(eps, sqrtf(lab.a * lab.a + lab.b * lab.b));
 	float a_ = lab.a / C;
 	float b_ = lab.b / C;
 
