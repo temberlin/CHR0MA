@@ -17,7 +17,7 @@ resource 'PiPL' (16000) {
 		},
 		/* [3] */
 		Category {
-			"Sample Plug-ins"
+			"Color Correction"
 		},
 #ifdef AE_OS_WIN
 	#ifdef AE_PROC_INTELx64
