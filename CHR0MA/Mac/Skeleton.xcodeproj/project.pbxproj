@@ -212,6 +212,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = CHR0MA;
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
 				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CODE_SIGN_FLAGS = "--options=runtime --timestamp -vvv";
 				PRODUCT_BUNDLE_IDENTIFIER = com.temberlin.AfterEffects.CHR0MA;
@@ -271,6 +272,7 @@
 				INFOPLIST_FILE = "Skeleton.plugin-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = CHR0MA;
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.temberlin.AfterEffects.CHR0MA;
