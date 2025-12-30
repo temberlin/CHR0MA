@@ -656,7 +656,7 @@ PF_Err PluginDataEntryFunction2(
 		inPluginDataCallBackPtr,
 		"CHR0MA", // Name
 		"temberlin CHR0MA", // Match Name
-		"Color Coreection", // Category
+		"Color Correction", // Category
 		AE_RESERVED_INFO, // Reserved Info
 		"EffectMain",	// Entry point
 		"https://temberl.in/");	// support URL
