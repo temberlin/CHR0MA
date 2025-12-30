@@ -16,7 +16,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C4E618CB095A3CE80012CA3F"
-               BuildableName = "Skeleton.plugin"
+               BuildableName = "CHR0MA.plugin"
                BlueprintName = "Skeleton"
                ReferencedContainer = "container:Skeleton.xcodeproj">
             </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C4E618CB095A3CE80012CA3F"
-            BuildableName = "Skeleton.plugin"
+            BuildableName = "CHR0MA.plugin"
             BlueprintName = "Skeleton"
             ReferencedContainer = "container:Skeleton.xcodeproj">
          </BuildableReference>
