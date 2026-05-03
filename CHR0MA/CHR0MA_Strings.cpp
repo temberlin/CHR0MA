@@ -19,7 +19,7 @@
 /*                                                                 */
 /*******************************************************************/
 
-#include "Skeleton.h"
+#include "CHR0MA.h"
 
 typedef struct {
 	A_u_long	index;

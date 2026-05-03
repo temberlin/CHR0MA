@@ -13,7 +13,7 @@ resource 'PiPL' (16000) {
 		},
 		/* [2] */
 		Name {
-			"Skeleton"
+			"CHR0MA"
 		},
 		/* [3] */
 		Category {
@@ -31,8 +31,8 @@ resource 'PiPL' (16000) {
 #endif
 		/* [6] */
 		AE_PiPL_Version {
-			2,
-			0
+			1,
+			3
 		},
 		/* [7] */
 		AE_Effect_Spec_Version {
@@ -41,7 +41,7 @@ resource 'PiPL' (16000) {
 		},
 		/* [8] */
 		AE_Effect_Version {
-			589825	/* 1.2 */
+			622593	/* 1.3 */
 		},
 		/* [9] */
 		AE_Effect_Info_Flags {
@@ -57,7 +57,7 @@ resource 'PiPL' (16000) {
 		},
 		/* [11] */
 		AE_Effect_Match_Name {
-			"ADBE Skeleton"
+			"CHR0MA"
 		},
 		/* [12] */
 		AE_Reserved_Info {

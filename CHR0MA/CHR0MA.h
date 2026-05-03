@@ -25,8 +25,8 @@
 
 #pragma once
 
-#ifndef SKELETON_H
-#define SKELETON_H
+#ifndef CHR0MA_H
+#define CHR0MA_H
 
 typedef unsigned char		u_char;
 typedef unsigned short		u_short;
@@ -57,12 +57,12 @@ typedef short int			int16;
 #include "AEFX_ChannelDepthTpl.h"
 #include "AEGP_SuiteHandler.h"
 
-#include "Skeleton_Strings.h"
+#include "CHR0MA_Strings.h"
 
 /* Versioning information */
 
 #define	MAJOR_VERSION	1
-#define	MINOR_VERSION	2
+#define	MINOR_VERSION	3
 #define	BUG_VERSION		0
 #define	STAGE_VERSION	PF_Stage_DEVELOP
 #define	BUILD_VERSION	1
@@ -80,12 +80,12 @@ typedef short int			int16;
 #define CHR0MA_ADAPTIVE_CLIP_ALPHA_DFLT	0.5
 
 enum {
-	SKELETON_INPUT = 0,
+	CHR0MA_INPUT = 0,
 	CHR0MA_HUE,
 	CHR0MA_CHROMA,
 	CHR0MA_CLIP,
 	CHROMA_ADAPTIVE_CLIP_ALPHA,
-	SKELETON_NUM_PARAMS
+	CHR0MA_NUM_PARAMS
 };
 
 enum {
