@@ -35,7 +35,7 @@ BEGIN
 	"RVPe", 
 	0, 0x0,
 	4, 0x0,
-	1, 3,
+	2, 0,
 
 	"MIB8",
 	"RVSe", 
@@ -65,7 +65,7 @@ BEGIN
 	"2LGe", 
 	0L,
 	4L,
-	0L, 
+	134217728L, 
 
 	"MIB8",
 	"ANMe",
@@ -82,8 +82,8 @@ BEGIN
 	"MIB8",
 	"LRUe",
 	0, 0x0,
-	24, 0x0,
-	"\x15https://www.adobe.com\0\0", 
+	32, 0x0,
+	"\x1Dhttps://aescripts.com/chr0ma/\0\0", 
 
 
 END

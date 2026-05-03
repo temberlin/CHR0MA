@@ -31,8 +31,8 @@ resource 'PiPL' (16000) {
 #endif
 		/* [6] */
 		AE_PiPL_Version {
-			1,
-			3
+			2,
+			0
 		},
 		/* [7] */
 		AE_Effect_Spec_Version {
@@ -53,7 +53,7 @@ resource 'PiPL' (16000) {
 
 		},
 		AE_Effect_Global_OutFlags_2 {
-		0x00000000
+		0x08000000
 		},
 		/* [11] */
 		AE_Effect_Match_Name {
@@ -65,7 +65,7 @@ resource 'PiPL' (16000) {
 		},
 		/* [13] */
 		AE_Effect_Support_URL {
-			"https://www.adobe.com"
+			"https://aescripts.com/chr0ma/"
 		}
 	}
 };
