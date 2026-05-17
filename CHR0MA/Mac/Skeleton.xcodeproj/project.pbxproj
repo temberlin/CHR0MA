@@ -7,23 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D0FE575F0993C4E900139A60 /* Skeleton_Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0FE575A0993C4E900139A60 /* Skeleton_Strings.cpp */; };
-		D0FE57600993C4E900139A60 /* Skeleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0FE575C0993C4E900139A60 /* Skeleton.cpp */; };
-		D0FE57610993C4E900139A60 /* SkeletonPiPL.r in Rez */ = {isa = PBXBuildFile; fileRef = D0FE575E0993C4E900139A60 /* SkeletonPiPL.r */; };
+		318E8CFA2FBA3AEB001B79F5 /* CHR0MA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 318E8CF72FBA3AEA001B79F5 /* CHR0MA.cpp */; };
+		318E8CFB2FBA3AEB001B79F5 /* CHR0MA_Strings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 318E8CF92FBA3AEA001B79F5 /* CHR0MA_Strings.cpp */; };
 		D0FE579D0993C5E500139A60 /* AEGP_SuiteHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0FE579A0993C5E500139A60 /* AEGP_SuiteHandler.cpp */; };
 		D0FE579E0993C5E500139A60 /* MissingSuiteError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D0FE579C0993C5E500139A60 /* MissingSuiteError.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		318E8CF62FBA3AEA001B79F5 /* CHR0MA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CHR0MA.h; path = ../CHR0MA.h; sourceTree = SOURCE_ROOT; };
+		318E8CF72FBA3AEA001B79F5 /* CHR0MA.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CHR0MA.cpp; path = ../CHR0MA.cpp; sourceTree = SOURCE_ROOT; };
+		318E8CF82FBA3AEA001B79F5 /* CHR0MA_Strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CHR0MA_Strings.h; path = ../CHR0MA_Strings.h; sourceTree = SOURCE_ROOT; };
+		318E8CF92FBA3AEA001B79F5 /* CHR0MA_Strings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = CHR0MA_Strings.cpp; path = ../CHR0MA_Strings.cpp; sourceTree = SOURCE_ROOT; };
 		7E76EECF1F707EF300536F9D /* AE_PluginData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AE_PluginData.h; path = ../../../Headers/AE_PluginData.h; sourceTree = "<group>"; };
 		7E76EED01F707F0400536F9D /* AE_Effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AE_Effect.h; path = ../../../Headers/AE_Effect.h; sourceTree = "<group>"; };
 		7EF36FB616F29701002A3CB3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		7EF36FB816F29807002A3CB3 /* Skeleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Skeleton.h; path = ../Skeleton.h; sourceTree = "<group>"; };
 		C4E618CC095A3CE80012CA3F /* CHR0MA.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CHR0MA.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0FE575A0993C4E900139A60 /* Skeleton_Strings.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Skeleton_Strings.cpp; path = ../Skeleton_Strings.cpp; sourceTree = SOURCE_ROOT; };
-		D0FE575B0993C4E900139A60 /* Skeleton_Strings.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = Skeleton_Strings.h; path = ../Skeleton_Strings.h; sourceTree = SOURCE_ROOT; };
-		D0FE575C0993C4E900139A60 /* Skeleton.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = Skeleton.cpp; path = ../Skeleton.cpp; sourceTree = SOURCE_ROOT; };
-		D0FE575E0993C4E900139A60 /* SkeletonPiPL.r */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.rez; name = SkeletonPiPL.r; path = ../SkeletonPiPL.r; sourceTree = SOURCE_ROOT; };
 		D0FE579A0993C5E500139A60 /* AEGP_SuiteHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = AEGP_SuiteHandler.cpp; path = ../../../Util/AEGP_SuiteHandler.cpp; sourceTree = SOURCE_ROOT; };
 		D0FE579B0993C5E500139A60 /* AEGP_SuiteHandler.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = AEGP_SuiteHandler.h; path = ../../../Util/AEGP_SuiteHandler.h; sourceTree = SOURCE_ROOT; };
 		D0FE579C0993C5E500139A60 /* MissingSuiteError.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = MissingSuiteError.cpp; path = ../../../Util/MissingSuiteError.cpp; sourceTree = SOURCE_ROOT; };
@@ -43,11 +41,10 @@
 		C4E6187C095A3C800012CA3F = {
 			isa = PBXGroup;
 			children = (
-				D0FE575C0993C4E900139A60 /* Skeleton.cpp */,
-				7EF36FB816F29807002A3CB3 /* Skeleton.h */,
-				D0FE575A0993C4E900139A60 /* Skeleton_Strings.cpp */,
-				D0FE575B0993C4E900139A60 /* Skeleton_Strings.h */,
-				D0FE575E0993C4E900139A60 /* SkeletonPiPL.r */,
+				318E8CF62FBA3AEA001B79F5 /* CHR0MA.h */,
+				318E8CF72FBA3AEA001B79F5 /* CHR0MA.cpp */,
+				318E8CF82FBA3AEA001B79F5 /* CHR0MA_Strings.h */,
+				318E8CF92FBA3AEA001B79F5 /* CHR0MA_Strings.cpp */,
 				D0FE57630993C4FD00139A60 /* Supporting Code */,
 				7EF36FB616F29701002A3CB3 /* Cocoa.framework */,
 				C4E6188C095A3C800012CA3F /* Products */,
@@ -141,7 +138,6 @@
 			isa = PBXRezBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0FE57610993C4E900139A60 /* SkeletonPiPL.r in Rez */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,10 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0FE575F0993C4E900139A60 /* Skeleton_Strings.cpp in Sources */,
-				D0FE57600993C4E900139A60 /* Skeleton.cpp in Sources */,
 				D0FE579D0993C5E500139A60 /* AEGP_SuiteHandler.cpp in Sources */,
 				D0FE579E0993C5E500139A60 /* MissingSuiteError.cpp in Sources */,
+				318E8CFA2FBA3AEB001B79F5 /* CHR0MA.cpp in Sources */,
+				318E8CFB2FBA3AEB001B79F5 /* CHR0MA_Strings.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +209,7 @@
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CODE_SIGN_FLAGS = "--options=runtime --timestamp -vvv";
 				PRODUCT_BUNDLE_IDENTIFIER = com.temberlin.AfterEffects.CHR0MA;
@@ -274,7 +270,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = CHR0MA;
 				INSTALL_PATH = "$(HOME)/Library/Bundles";
 				MACOSX_DEPLOYMENT_TARGET = 13.5;
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.temberlin.AfterEffects.CHR0MA;
