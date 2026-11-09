@@ -597,7 +597,7 @@ Render (
 
 	PF_Fixed hueFixed = params[CHR0MA_HUE]->u.ad.value;
 	giP.hueRad 	= 
-		(float(hueFixed >> 16) + (float((hueFixed & 0xffff) / 0x10000))) / 180.f * M_PI; // sets gainF in giP to be the user input
+		(float(hueFixed >> 16) + (float((hueFixed & 0xffff) / 0x10000))) / 180.f * float(M_PI); // sets gainF in giP to be the user input
 
 	giP.chromaScale = params[CHR0MA_CHROMA]->u.fs_d.value / 1000.f; // making slider 1000x "real" value so numbers are in a reasonable range
 	giP.clipType = (ClipType)params[CHR0MA_CLIP]->u.pd.value;
