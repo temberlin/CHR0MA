@@ -1,6 +1,7 @@
 .DS_Store
 *.xcuserstate
 CHR0MA/Win/x64
+CHR0MA/Win/ARM64
 CHR0MA/Win/CHR0MA/x64
 CHR0MA/Win/CHR0MA.tlog
 CHR0MA/Win/.vs

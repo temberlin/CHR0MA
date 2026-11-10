@@ -20,9 +20,8 @@ resource 'PiPL' (16000) {
 			"Color Correction"
 		},
 #ifdef AE_OS_WIN
-	#ifdef AE_PROC_INTELx64
-		CodeWin64X86 {"EffectMain"},
-	#endif
+		CodeWinARM64 {"EffectMain"},
+		CodeWin64X86 {"EffectMain"},  
 #else
 	#ifdef AE_OS_MAC
 		CodeMacIntel64 {"EffectMain"},
